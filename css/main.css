@@ -1,0 +1,254 @@
+/*** Base styles ***/
+body {
+  height: auto;
+  width: 100%;
+  margin: 0, auto;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  color: #000;
+  font-family: "Secular One", Times, sans-serif;
+  font-size: 35px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+
+p {
+  font-family: 'Roboto Condensed', Times, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.half_width {
+  float: left;
+  height: auto;
+  width: 50%;
+}
+
+.third_width {
+  float: left;
+  width: 33%;
+}
+
+/***** styles for homepage *****/
+
+header {
+  background-image: url("../img/super_white_office.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  height: 550px;
+  margin-bottom: 0px;
+}
+
+
+nav {
+  display: block;
+  float: right;
+  font-family: 'Saira Extra Condensed', Times, sans-serif;  /***defined both here and nav a so that the | gets in correct font***/
+  font-size: 30px;
+  margin-right: 40px;
+  margin-top: 5px;
+}
+
+nav a {
+  font-family: 'Saira Extra Condensed', Times, sans-serif;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+#logo img {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/***styles for about page ***/
+
+#about {
+  background-color: #fff;
+  height: 500px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+#about img {
+  height: auto;
+  margin-top: 125px;
+  margin-left: 22px;
+  width: 95%;
+}
+
+#about h1 {
+  margin-top: 75px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+#about p {
+  line-height: 1.2;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.button {
+  border: 1px solid #000;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  max-width: 175px;
+  padding-top: 10px;
+}
+
+.button a {
+  font-size: 24px;
+  text-align: center;
+  padding: 8px;
+  font-family: "Handlee", cursive;
+  color: #000;
+}
+/*** Styles for portfolio section ***/
+
+#portfolio {
+  clear: both;
+  background-color: #f8f8f8;
+  /***background-color: #dfdfdf; awesome gray ***/
+  /***background-color: #E0E0E0;***/
+  height: 525px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: auto;
+  width: 100%;
+}
+
+#portfolio h1 {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#portfolio img {
+  margin-bottom: 10px;
+  max-height: 225px;
+  width: auto;
+}
+
+#screenshot1 {
+  padding-left: 40px;
+}
+
+#portfolio a, h2 {
+  color: rgb(84,134,55);
+  font-family: "Handlee";
+  margin-bottom: 0px;
+  text-decoration: none;
+  text-align: left;
+}
+
+#first_heading, #first_paragraph {
+  margin-left: 40px;
+}
+
+
+#portfolio p {
+  font-size: 18px;
+  max-width: 250px;
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: left;
+}
+
+/*** styles for contact form ***/
+
+#contact_form {
+  /*** Possible darker green background-color: #476829; ***/
+  /***background-color: #E0E0E0; medium gray ***/
+  background-color: #dfdfdf;
+  clear: both;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  overflow: auto;
+  width: 100%;
+}
+
+#contact_form h1 {
+  color: rgb(84,134,55);
+  text-align: center;
+}
+
+#contact_form p {
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-right: 30px;
+  padding-bottom: 20px;
+}
+
+#contact_form a{
+  font-weight: 400;
+}
+
+form {
+  color: #000;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 85%;
+}
+
+form p {
+  font-family: "Handlee";
+}
+
+input {
+  border: 1px solid #000;
+  color: #000;
+  font-family: "Handlee";
+  width: 38%;
+}
+
+textarea {
+  color: #fff;
+  border: 1px solid #000;
+  height: 150px;
+  width: 93%;
+}
+
+#submit_button {
+  background-color: rgb(84,134,55);
+  border: 0px;
+  color: #fff;
+  height: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  width: 125px;
+}
+
+footer {
+  background-color: #000;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: #fff;
+}
